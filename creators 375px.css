@@ -1,0 +1,236 @@
+@media(max-width: 375px){
+    .header{
+        height: 30vw;
+        background-color: #F9F9F9;
+    }
+    .navbar-brand{
+        padding-right: 3vw;
+    }
+    .navbar{
+        margin-top: 0vw;
+        margin-right: 5vw;
+        margin-left: 5vw;
+    }
+    .container-fluid{
+        padding-right: 200px;
+    }
+    .navbar-nav{
+        width: 43%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar a{
+        font-size: 1.2vw;
+        font-weight: 500;
+    }
+    .navbar a:hover{
+        color: #0d6efd;
+        font-weight: 500;
+    }
+    .navbar img{
+        width: 53px;
+    }
+    #dolar20{
+        font-weight: 600;
+        color: black;
+    }
+    .d-flex{
+        width: 50%;
+        height: 3.4vw;
+    }
+    .d-flex input{
+        font-size: 1.1vw;
+        width: 80%;
+        border-radius: 10px;
+        background-color: #EDEDED;
+    }
+    .d-flex button{
+        font-size: 1.1vw;
+        border: none;
+        margin-left: 1vw;
+        border-radius: 10px;
+        width: 43%;
+        background-color: black;
+        color: white;
+    }
+    .offcanvas{
+        display:block;
+    }
+    .offcanvas-body div{
+        display:block;
+    }
+    .offcanvas-title{
+        display:block;
+    }
+    .dropdown-menu{
+        display:block;  
+    }
+    .dropdown{
+        display:block;
+    }
+    .d-flex2{
+        align-content: center;
+        width: 100%;
+        height: 3.4vw;
+    }
+    .d-flex2 input{
+        margin-top: 2vw;
+        font-size: 8vw;
+        width: 100%;
+        border-radius: 10px;
+        background-color: #EDEDED;
+    }
+    .d-flex2 button{
+        font-size: 8vw;
+        border: none;
+        margin-top: 4vw;
+        border-radius: 10px;
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+    .navbar-toggler{
+        background-color: #0d6efd;
+        border: 20px solid black;
+    }
+    .offcanvas-body div{
+        margin-top: 2vw;
+        height: 50vw;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+    #nav-linke{
+        padding-bottom: 14vw;
+        text-align: center;
+        font-size: 6vw;
+        font-weight: 500;
+    }
+    #nav-linke:hover{
+        color: #0d6efd;
+        font-weight: 500;
+    }
+
+
+    .body{
+        background-color: #F9F9F9;
+        height: 300vw;
+    }
+    .body p{
+        margin-bottom: 4vw;
+        font-size: 6vw;
+        text-align: center;
+        padding-top: 10vw;
+    }
+    .d{
+        width: 97%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 19%;
+    }
+    .d1{
+        width: 96%;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .d1 img{
+        width: 75%;
+    }
+
+
+
+    #hidec{
+        display: none;
+    }
+    #hidecc{
+        display: none;
+    }
+
+
+
+
+    .footer{
+        height: 40vw;
+        background-color: #141416;
+    }
+    .fl1{
+        padding-top: 4vw;
+        width: 88%;
+        margin-left: 6%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .fl1 img{
+        width: 30%;
+    }
+    .fl1 div:first-child p{
+        margin-top: 4vw;
+        color: white;
+        font-size: 3vw;
+        font-weight: 500;
+    } 
+    .fl1 div:first-child{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .fl1 div:last-child{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 95%;
+    }
+    .fl1 div:last-child p{
+        margin-top: 4vw;
+        color: white;
+        font-size: 2vw;
+    }
+    
+    
+    .footer hr{
+        width: 88%;
+        margin-left: 6%;
+        color: white;
+    }
+    
+    
+    .fl2{
+        margin-top: 4vw;
+        margin-left: 6%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 88%;
+    }
+    .fl2 div:first-child{
+        display: flex;
+        flex-direction: row;
+    }
+    .fl2 div:first-child p{
+        color: #535353;
+        font-size: 3vw;
+    }
+    .fl2 div:last-child{
+        justify-content: space-between;
+        width: 25%;
+        display: flex;
+        flex-direction: row;
+    }
+    .fl2 div:last-child a{
+        font-size: 3vw;
+        text-decoration: none;
+        color: #707070;
+        font-weight: 600;
+    }
+    .fl2 div:last-child a:hover{
+        transition: 0.3s;
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Main.css">
+    <link rel="stylesheet" href="Main 1440px.css">
+    <link rel="stylesheet" href="Main 1024px.css">
+    <link rel="stylesheet" href="Main 768px.css">
+    <link rel="stylesheet" href="Main 375px.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+  <div class="header">
+    <nav class="navbar navbar-expand-md ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/1.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                <a class="nav-link" id="nav-linke" href="discover.html">DISCOVER</a>
+                <a class="nav-link" id="nav-linke" href="creators.html">CREATORS</a>
+                <a class="nav-link" id="nav-linke" href="reg.html">SELL</a>
+                <a class="nav-link" id="nav-linke" href="stats.html">STATS</a>
+                <form class="d-flex2" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search Art Work / Creator" aria-label="Search">
+                  <button class="btn btn-primary" type="submit" >CONNECT WALLET</button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="discover.html">DISCOVER</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="creators.html">CREATORS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="reg.html">SELL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="stats.html">STATS</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search Art Work / Creator" aria-label="Search">
+              <button class="btn btn-primary" type="submit">CONNECT WALLET</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="ft">
+      <div class="discover">
+        <p id="p1">Discover And Create NFTs</p>
+        <p id="p2">Discover, Create and Sell NFTs On Our NFT Marketplace With Over Thousands Of NFTs And Get a <span id="dolar20">$20 bonus.</span></p>
+        <div class="more">
+            <button data-bs-toggle="modal" data-bs-target="#exampleModal">EXPLORE MORE</button>
+            <button>CREATE NFT</button>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">EXPLORE MORE</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="btnclose"></button>
+              </div>
+              <div class="modal-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum commodi laborum quae, exercitationem nostrum minima minus mollitia maxime adipisci, consectetur suscipit deserunt illo architecto natus voluptas quo harum veniam. Sunt.
+                Quas autem repudiandae quaerat nulla veniam voluptatum tempore sapiente praesentium molestias culpa? Ratione adipisci quos iste nisi, repellendus, nulla itaque eum aperiam, earum sit excepturi quibusdam voluptatum animi odio ullam.
+                Consectetur autem facilis, blanditiis excepturi voluptatum doloribus cumque necessitatibus minus tempora adipisci, dolore eum iusto distinctio delectus quos voluptatem iure dignissimos pariatur? Expedita ducimus molestiae quam, minima tempore fugit corrupti.
+                Repellat aspernatur natus dolorum. Temporibus ipsam dignissimos nihil quisquam iusto sapiente nisi consequuntur reiciendis ullam cum neque dicta omnis ex delectus quae, ad itaque sit corrupti ratione libero quod odio.
+                Dignissimos inventore quis fuga nesciunt id, sed quasi iusto ipsum, itaque voluptatibus veritatis reprehenderit at maiores quia soluta quo aliquid atque vero laudantium officia asperiores facere. Nulla iste dolores eveniet.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="save">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="art">
+          <div class="art1">
+            <p>430K+</p>
+            <p>Art Works</p>
+          </div>
+          <div class="art1">
+            <p>159K+</p>
+            <p>Creators</p>
+          </div>
+          <div class="art1">
+            <p>87K+</p>
+            <p>Collections</p>
+          </div>
+        </div>
+      </div>
+      <img src="img/3.png" alt="">
+      </div>
+  </div>
+  <div class="body">
+    <div class="body1">
+      <p id="p3">Weekly-Top NFT</p>
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <!-- <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div> -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+         <div id="cia">
+          <div class="carus" id="hidec">
+            <div class="car1">
+              <img src="img/s1.png" alt="" id="carim1">
+              <p>Sun-Glass</p>
+              <div>
+                <img src="img/4.png" alt="" id="carim2">
+                <button>PLACE BID</button>
+              </div>
+            </div>
+          </div>
+          <div class="carus" id="hidecc">
+            <div class="car1">
+              <img src="img/s2.png" alt="" id="carim1">
+              <p>Sun-Glass</p>
+              <div>
+                <img src="img/4.png" alt="" id="carim2">
+                <button>PLACE BID</button>
+              </div>
+            </div>
+          </div>
+          <div class="carus">
+            <div class="car1">
+              <img src="img/s3.png" alt="" id="carim1">
+              <p>Sun-Glass</p>
+              <div>
+                <img src="img/4.png" alt="" id="carim2">
+                <button>PLACE BID</button>
+              </div>
+            </div>
+          </div>
+          <div class="carus" id="hidecc">
+            <div class="car1">
+              <img src="img/s4.png" alt="" id="carim1">
+              <p>NuEvey</p>
+              <div>
+                <img src="img/4.png" alt="" id="carim2">
+                <button>PLACE BID</button>
+              </div>
+            </div>
+          </div>
+          <div class="carus" id="hidec">
+            <div class="car1">
+              <img src="img/s5.png" alt="" id="carim1">
+              <p>NuEvey</p>
+              <div>
+                <img src="img/4.png" alt="" id="carim2">
+                <button>PLACE BID</button>
+              </div>
+            </div>
+          </div>
+         </div>
+        </div>
+
+
+
+        <div class="carousel-item">
+          <div id="cia">
+            <div class="carus" id="hidec">
+              <div class="car1">
+                <img src="img/s2.png" alt="" id="carim1">
+                <p>Sun-Glass</p>
+                <div>
+                  <img src="img/4.png" alt="" id="carim2">
+                  <button>PLACE BID</button>
+                </div>
+              </div>
+            </div>
+            <div class="carus" id="hidecc">
+              <div class="car1">
+                <img src="img/s3.png" alt="" id="carim1">
+                <p>Sun-Glass</p>
+                <div>
+                  <img src="img/4.png" alt="" id="carim2">
+                  <button>PLACE BID</button>
+                </div>
+              </div>
+            </div>
+            <div class="carus">
+              <div class="car1">
+                <img src="img/s4.png" alt="" id="carim1">
+                <p>NuEvey</p>
+                <div>
+                  <img src="img/4.png" alt="" id="carim2">
+                  <button>PLACE BID</button>
+                </div>
+              </div>
+            </div>
+            <div class="carus" id="hidecc">
+              <div class="car1">
+                <img src="img/s5.png" alt="" id="carim1">
+                <p>NuEvey</p>
+                <div>
+                  <img src="img/4.png" alt="" id="carim2">
+                  <button>PLACE BID</button>
+                </div>
+              </div>
+            </div>
+            <div class="carus" id="hidec">
+              <div class="car1">
+                <img src="img/s1.png" alt="" id="carim1">
+                <p>Sun-Glass</p>
+                <div>
+                  <img src="img/4.png" alt="" id="carim2">
+                  <button>PLACE BID</button>
+                </div>
+              </div>
+            </div>
+           </div>
+        </div>
+
+
+
+        <div class="carousel-item">
+          <div id="cia">
+            <div class="carus" id="hidec">
+              <div class="car1">
+                <img src="img/s3.png" alt="" id="carim1">
+                <p>Sun-Glass</p>
+                <div>
+                  <img src="img/4.png" alt="" id="carim2">
+                  <button>PLACE BID</button>
+                </div>
+              </div>
+            </div>
+            <div class="carus" id="hidecc">
+              <div class="car1">
+                <img src="img/s4.png" alt="" id="carim1">
+                <p>NuEvey</p>
+                <div>
+                  <img src="img/4.png" alt="" id="carim2">
+                  <button>PLACE BID</button>
+                </div>
+              </div>
+            </div>
+            <div class="carus">
+              <div class="car1">
+                <img src="img/s5.png" alt="" id="carim1">
+                <p>NuEvey</p>
+                <div>
+                  <img src="img/4.png" alt="" id="carim2">
+                  <button>PLACE BID</button>
+                </div>
+              </div>
+            </div>
+            <div class="carus" id="hidecc">
+              <div class="car1">
+                <img src="img/s1.png" alt="" id="carim1">
+                <p>Sun-Glass</p>
+                <div>
+                  <img src="img/4.png" alt="" id="carim2">
+                  <button>PLACE BID</button>
+                </div>
+              </div>
+            </div>
+            <div class="carus" id="hidec">
+              <div class="car1">
+                <img src="img/s2.png" alt="" id="carim1">
+                <p>Sun-Glass</p>
+                <div>
+                  <img src="img/4.png" alt="" id="carim2">
+                  <button>PLACE BID</button>
+                </div>
+              </div>
+            </div>
+           </div>
+        </div>
+
+
+
+        <div class="carousel-item">
+          <div id="cia">
+            <div class="carus" id="hidec">
+              <div class="car1">
+                <img src="img/s4.png" alt="" id="carim1">
+                <p>NuEvey</p>
+                <div>
+                  <img src="img/4.png" alt="" id="carim2">
+                  <button>PLACE BID</button>
+                </div>
+              </div>
+            </div>
+            <div class="carus" id="hidecc">
+              <div class="car1">
+                <img src="img/s5.png" alt="" id="carim1">
+                <p>NuEvey</p>
+                <div>
+                  <img src="img/4.png" alt="" id="carim2">
+                  <button>PLACE BID</button>
+                </div>
+              </div>
+            </div>
+            <div class="carus">
+              <div class="car1">
+                <img src="img/s1.png" alt="" id="carim1">
+                <p>Sun-Glass</p>
+                <div>
+                  <img src="img/4.png" alt="" id="carim2">
+                  <button>PLACE BID</button>
+                </div>
+              </div>
+            </div>
+            <div class="carus" id="hidecc">
+              <div class="car1">
+                <img src="img/s2.png" alt="" id="carim1">
+                <p>Sun-Glass</p>
+                <div>
+                  <img src="img/4.png" alt="" id="carim2">
+                  <button>PLACE BID</button>
+                </div>
+              </div>
+            </div>
+            <div class="carus" id="hidec">
+              <div class="car1">
+                <img src="img/s3.png" alt="" id="carim1">
+                <p>Sun-Glass</p>
+                <div>
+                  <img src="img/4.png" alt="" id="carim2">
+                  <button>PLACE BID</button>
+                </div>
+              </div>
+            </div>
+           </div>
+        </div>
+
+
+
+        <div class="carousel-item">
+          <div id="cia">
+            <div class="carus" id="hidec">
+              <div class="car1">
+                <img src="img/s5.png" alt="" id="carim1">
+                <p>NuEvey</p>
+                <div>
+                  <img src="img/4.png" alt="" id="carim2">
+                  <button>PLACE BID</button>
+                </div>
+              </div>
+            </div>
+            <div class="carus" id="hidecc">
+              <div class="car1">
+                <img src="img/s1.png" alt="" id="carim1">
+                <p>Sun-Glass</p>
+                <div>
+                  <img src="img/4.png" alt="" id="carim2">
+                  <button>PLACE BID</button>
+                </div>
+              </div>
+            </div>
+            <div class="carus">
+              <div class="car1">
+                <img src="img/s2.png" alt="" id="carim1">
+                <p>Sun-Glass</p>
+                <div>
+                  <img src="img/4.png" alt="" id="carim2">
+                  <button>PLACE BID</button>
+                </div>
+              </div>
+            </div>
+            <div class="carus" id="hidecc">
+              <div class="car1">
+                <img src="img/s3.png" alt="" id="carim1">
+                <p>Sun-Glass</p>
+                <div>
+                  <img src="img/4.png" alt="" id="carim2">
+                  <button>PLACE BID</button>
+                </div>
+              </div>
+            </div>
+            <div class="carus" id="hidec">
+              <div class="car1">
+                <img src="img/s4.png" alt="" id="carim1">
+                <p>NuEvey</p>
+                <div>
+                  <img src="img/4.png" alt="" id="carim2">
+                  <button>PLACE BID</button>
+                </div>
+              </div>
+            </div>
+           </div>
+        </div>
+      </div>
+      <!-- <div class="arrow">
+      <button id="bt1" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button id="bt2" class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      </div> -->
+    </div>
+    <div class="arrow">
+      <button id="bt1" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button id="bt2" class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon " aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="mod" id="hidecc">
+      <p>Recent Viewed</p>
+      <img src="img/mod1.png" alt="">
+      <img src="img/mod2.png" alt="">
+    </div>
+  </div>
+  <div class="body2">
+    <p>Top Collection</p>
+    <table>
+      <thead>
+        <tr>
+          <td>Collection</td>
+          <td>Volume</td>
+          <td id="hidecc">24h%</td>
+          <td id="hidecc">Floor Price</td>
+          <td id="hidecc">Owners</td>
+          <td id="hidecc">Items</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="img/t1.png" alt="" id="tdimg1"></td>
+          <td><img src="img/t1.2.png" alt="" id="tdimg2"></td>
+          <td id="gr">+27.78%</td>
+          <td id="hidecc"><img src="img/t1.3.png" alt="" id="tdimg3"></td>
+          <td id="it">2.2K</td>
+          <td id="it">500</td>
+        </tr>
+        <tr>
+          <td><img src="img/t2.png" alt="" id="tdimg1"></td>
+          <td><img src="img/t2.2.png" alt="" id="tdimg2"></td>
+          <td id="gr">+27.78%</td>
+          <td id="hidecc"><img src="img/t2.3.png" alt="" id="tdimg3"></td>
+          <td id="it">3.4K</td>
+          <td id="it">900</td>
+        </tr>
+        <tr>
+          <td><img src="img/t1.png" alt="" id="tdimg1"></td>
+          <td><img src="img/t1.2.png" alt="" id="tdimg2"></td>
+          <td id="gr">+27.78%</td>
+          <td id="hidecc"><img src="img/t1.3.png" alt="" id="tdimg3"></td>
+          <td id="it">2.2K</td>
+          <td id="it">500</td>
+        </tr>
+        <tr>
+          <td><img src="img/t2.png" alt="" id="tdimg1"></td>
+          <td><img src="img/t2.2.png" alt="" id="tdimg2"></td>
+          <td id="gr">+27.78%</td>
+          <td id="hidecc"><img src="img/t2.3.png" alt="" id="tdimg3"></td>
+          <td id="it">3.4K</td>
+          <td id="it">900</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="body3">
+    <p>Explore Marketplace</p>
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" id="ul1">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><img src="img/tab1.png" alt=""></button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><img src="img/tab2.png" alt=""></button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-cont-tab" data-bs-toggle="pill" data-bs-target="#pills-cont" type="button" role="tab" aria-controls="pills-cont" aria-selected="false"><img src="img/tab3.png" alt="" id="tab3"></button>
+      </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+       <div class="tab1">
+        <div class="carus" id="hidec">
+          <div class="car1">
+            <img src="img/s1.png" alt="" id="carim1">
+            <p>Sun-Glass</p>
+            <div>
+              <img src="img/4.png" alt="" id="carim2">
+              <button>PLACE BID</button>
+            </div>
+          </div>
+        </div>
+        <div class="carus" id="hidecc">
+          <div class="car1">
+            <img src="img/s2.png" alt="" id="carim1">
+            <p>Sun-Glass</p>
+            <div>
+              <img src="img/4.png" alt="" id="carim2">
+              <button>PLACE BID</button>
+            </div>
+          </div>
+        </div>
+        <div class="carus" id="hidecc">
+          <div class="car1">
+            <img src="img/s3.png" alt="" id="carim1">
+            <p>Sun-Glass</p>
+            <div>
+              <img src="img/4.png" alt="" id="carim2">
+              <button>PLACE BID</button>
+            </div>
+          </div>
+        </div>
+        <div class="carus">
+          <div class="car1">
+            <img src="img/s4.png" alt="" id="carim1">
+            <p>NuEvey</p>
+            <div>
+              <img src="img/4.png" alt="" id="carim2">
+              <button>PLACE BID</button>
+            </div>
+          </div>
+        </div>
+       </div>
+       <div class="tab1">
+        <div class="carus" id="hidec">
+          <div class="car1">
+            <img src="img/s3.png" alt="" id="carim1">
+            <p>Sun-Glass</p>
+            <div>
+              <img src="img/4.png" alt="" id="carim2">
+              <button>PLACE BID</button>
+            </div>
+          </div>
+        </div>
+        <div class="carus" id="hidecc">
+          <div class="car1">
+            <img src="img/s4.png" alt="" id="carim1">
+            <p>NuEvey</p>
+            <div>
+              <img src="img/4.png" alt="" id="carim2">
+              <button>PLACE BID</button>
+            </div>
+          </div>
+        </div>
+        <div class="carus" id="hidecc">
+          <div class="car1">
+            <img src="img/s2.png" alt="" id="carim1">
+            <p>Sun-Glass</p>
+            <div>
+              <img src="img/4.png" alt="" id="carim2">
+              <button>PLACE BID</button>
+            </div>
+          </div>
+        </div>
+        <div class="carus" >
+          <div class="car1">
+            <img src="img/s1.png" alt="" id="carim1">
+            <p>Sun-Glass</p>
+            <div>
+              <img src="img/4.png" alt="" id="carim2">
+              <button>PLACE BID</button>
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+
+
+
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+        <div class="tab1">
+          <div class="carus" id="hidec">
+            <div class="car1">
+              <img src="img/s1.png" alt="" id="carim1">
+              <p>Sun-Glass</p>
+              <div>
+                <img src="img/4.png" alt="" id="carim2">
+                <button>PLACE BID</button>
+              </div>
+            </div>
+          </div>
+          <div class="carus" id="hidecc">
+            <div class="car1">
+              <img src="img/s2.png" alt="" id="carim1">
+              <p>Sun-Glass</p>
+              <div>
+                <img src="img/4.png" alt="" id="carim2">
+                <button>PLACE BID</button>
+              </div>
+            </div>
+          </div>
+          <div class="carus">
+            <div class="car1">
+              <img src="img/s3.png" alt="" id="carim1">
+              <p>Sun-Glass</p>
+              <div>
+                <img src="img/4.png" alt="" id="carim2">
+                <button>PLACE BID</button>
+              </div>
+            </div>
+          </div>
+          <div class="carus" id="hidecc">
+            <div class="car1">
+              <img src="img/s4.png" alt="" id="carim1">
+              <p>NuEvey</p>
+              <div>
+                <img src="img/4.png" alt="" id="carim2">
+                <button>PLACE BID</button>
+              </div>
+            </div>
+          </div>
+         </div>
+      </div>
+
+
+
+      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+        <div class="tab2">
+          <div class="carus" id="hidecc">
+            <div class="car1">
+              <img src="img/s1.png" alt="" id="carim1">
+              <p>Sun-Glass</p>
+              <div>
+                <img src="img/4.png" alt="" id="carim2">
+                <button>PLACE BID</button>
+              </div>
+            </div>
+          </div>
+          <div class="carus">
+            <div class="car1">
+              <img src="img/s4.png" alt="" id="carim1">
+              <p>NuEvey</p>
+              <div>
+                <img src="img/4.png" alt="" id="carim2">
+                <button>PLACE BID</button>
+              </div>
+            </div>
+          </div>
+          <div class="carus" id="hidecc">
+            <div class="car1">
+              <img src="img/s3.png" alt="" id="carim1">
+              <p>Sun-Glass</p>
+              <div>
+                <img src="img/4.png" alt="" id="carim2">
+                <button>PLACE BID</button>
+              </div>
+            </div>
+          </div>
+         </div>
+      </div>
+
+
+
+      <div class="tab-pane fade" id="pills-cont" role="tabpanel" aria-labelledby="pills-cont-tab" tabindex="0">
+        <div class="tab1">
+          <div class="carus" id="hidecc">
+            <div class="car1">
+              <img src="img/s1.png" alt="" id="carim1">
+              <p>Sun-Glass</p>
+              <div>
+                <img src="img/4.png" alt="" id="carim2">
+                <button>PLACE BID</button>
+              </div>
+            </div>
+          </div>
+          <div class="carus" id="hidecc">
+            <div class="car1">
+              <img src="img/s2.png" alt="" id="carim1">
+              <p>Sun-Glass</p>
+              <div>
+                <img src="img/4.png" alt="" id="carim2">
+                <button>PLACE BID</button>
+              </div>
+            </div>
+          </div>
+          <div class="carus">
+            <div class="car1">
+              <img src="img/s3.png" alt="" id="carim1">
+              <p>Sun-Glass</p>
+              <div>
+                <img src="img/4.png" alt="" id="carim2">
+                <button>PLACE BID</button>
+              </div>
+            </div>
+          </div>
+          <div class="carus" id="hidec">
+            <div class="car1">
+              <img src="img/s4.png" alt="" id="carim1">
+              <p>NuEvey</p>
+              <div>
+                <img src="img/4.png" alt="" id="carim2">
+                <button>PLACE BID</button>
+              </div>
+            </div>
+          </div>
+         </div>
+         <div class="tab2">
+          <div class="carus" id="hidecc">
+            <div class="car1">
+              <img src="img/s3.png" alt="" id="carim1">
+              <p>Sun-Glass</p>
+              <div>
+                <img src="img/4.png" alt="" id="carim2">
+                <button>PLACE BID</button>
+              </div>
+            </div>
+          </div>
+          <div class="carus">
+            <div class="car1">
+              <img src="img/s4.png" alt="" id="carim1">
+              <p>NuEvey</p>
+              <div>
+                <img src="img/4.png" alt="" id="carim2">
+                <button>PLACE BID</button>
+              </div>
+            </div>
+          </div>
+          <div class="carus" id="hidec">
+            <div class="car1">
+              <img src="img/s2.png" alt="" id="carim1">
+              <p>Sun-Glass</p>
+              <div>
+                <img src="img/4.png" alt="" id="carim2">
+                <button>PLACE BID</button>
+              </div>
+            </div>
+          </div>
+         </div>
+    </div>
+  </div>
+  </div>
+  <div class="body4">
+    <hr>
+    <div class="bd">
+     <div class="bd1">
+      <div class="ju">
+        <p>Just Unleash-</p>
+        <p>Your Inner Collector</p>
+      </div>
+      <div class="ok">
+        <div id="hidecc">
+          <img src="img/ok.png" alt="">
+          <p>Best Seller All Around World</p>
+        </div>
+        <div id="hidecc">
+          <img src="img/ok.png" alt="">
+          <p>$2M+ Transection Every Day</p>
+        </div>
+        <div id="hidecc">
+          <img src="img/ok.png" alt="">
+          <p>Secure Transaction</p>
+        </div>
+        <div id="hidecc">
+          <img src="img/ok.png" alt="">
+          <p>Exclusive Collections From Sellers</p>
+        </div>
+        <div id="hidecc">
+          <img src="img/ok.png" alt="">
+          <p>Easy Buying and Selling</p>
+        </div>
+        <div id="hidecc">
+          <img src="img/ok.png" alt="">
+          <p>Join Our Community</p>
+        </div>
+      </div>
+      <button>Explore More -></button>
+     </div>
+    </div>
+   <img src="img/ok2.png" alt="" id="imgg">
+   </div>
+  </div>
+  <div class="body5">
+    <div class="fleh">
+    <div class="bl">
+      <p>Create and Sell NFTs</p>
+      <p id="plast">World's Largest NFT Place</p>
+      <div class="bt3">
+        <button>Explore More</button>
+        <button>Sell Artwork</button>
+      </div>
+    </div>
+    <img src="img/b1.png" alt="">
+    </div>
+  </div>
+  </div>
+  <div class="footer">
+    <div class="fl1">
+      <div>
+        <img src="img/1.1.png" alt="">
+        <p>DiveSea</p>
+      </div>
+      <div>
+        <p>Privacy Policy</p>
+        <p>Term & Conditions</p>
+        <p>About Us</p>
+        <p>Contact</p>
+      </div>
+    </div>
+    <hr>
+    <div class="fl2">
+      <div>
+        <p>2023 EATLY All Rights Reserved.</p>
+      </div>
+      <div>
+        <a href="">inst</a>
+        <a href="">in</a>
+        <a href="">f</a>
+        <a href="">tw</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

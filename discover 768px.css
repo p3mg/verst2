@@ -1,0 +1,374 @@
+@media(max-width:768px ){
+    body{
+        background-color: #F9F9F9;
+    }
+    *{
+        font-family:"Poppins";
+        /* outline: 4px solid green !important; */
+    }
+    .header{
+        height: 10vw;
+        background-color: #F9F9F9;
+    }
+    .navbar-brand{
+        padding-right: 3vw;
+    }
+    .navbar{
+        margin-top: 0vw;
+        margin-right: 5vw;
+        margin-left: 5vw;
+    }
+    .container-fluid{
+        padding-right: 200px;
+    }
+    .navbar-nav{
+        width: 43%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar a{
+        font-size: 1.2vw;
+        font-weight: 500;
+    }
+    .navbar a:hover{
+        color: #0d6efd;
+        font-weight: 500;
+    }
+    .navbar img{
+        width: 53px;
+    }
+    #dolar20{
+        font-weight: 600;
+        color: black;
+    }
+    .d-flex{
+        width: 50%;
+        height: 3.4vw;
+    }
+    .d-flex input{
+        font-size: 1.1vw;
+        width: 80%;
+        border-radius: 10px;
+        background-color: #EDEDED;
+    }
+    .d-flex button{
+        font-size: 1.1vw;
+        border: none;
+        margin-left: 1vw;
+        border-radius: 10px;
+        width: 43%;
+        background-color: black;
+        color: white;
+    }
+    .offcanvas{
+        display:block;
+    }
+    .offcanvas-body div{
+        display:block;
+    }
+    .offcanvas-title{
+        display:block;
+    }
+    .dropdown-menu{
+        display:block;  
+    }
+    .dropdown{
+        display:block;
+    }
+    .d-flex2{
+        align-content: center;
+        width: 100%;
+        height: 3.4vw;
+    }
+    .d-flex2 input{
+        margin-top: 2vw;
+        font-size: 4vw;
+        width: 100%;
+        border-radius: 10px;
+        background-color: #EDEDED;
+    }
+    .d-flex2 button{
+        font-size: 4vw;
+        border: none;
+        margin-top: 4vw;
+        border-radius: 10px;
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+    .navbar-toggler{
+        background-color: #0d6efd;
+        border: 20px solid black;
+    }
+    .offcanvas-body div{
+        margin-top: 2vw;
+        height: 50vw;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+    #nav-linke{
+        padding-bottom: 2vw;
+        text-align: center;
+        font-size: 3vw;
+        font-weight: 500;
+    }
+    #nav-linke:hover{
+        color: #0d6efd;
+        font-weight: 500;
+    }
+
+
+
+    .carousel{
+        margin-top: 4vw;
+    }
+    #cia{
+        padding-top: 2vw;
+        margin-left: 10vw;
+        height: 40vw;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+    }
+    #hidec{
+        display: none;
+    }
+    .carus{
+        box-shadow: 0px 0px 2vw rgba(0, 0, 0, 0.1);
+        margin-left: 2vw;
+        align-items: center;
+        padding: 1vw;
+        height: 35vw;
+        max-height: 400px;
+        border-radius: 2vw;
+        width: 60%;
+        max-width:260px ;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+    .carousel-indicators{
+        background-color: #0d6efd;
+        color: #0d6efd;
+    }
+    .carousel-indicators button{
+        background-color: #0d6efd;
+        color: #0d6efd;
+    }
+    .car1{
+        width: 100%;
+    }
+    .car1 div{
+        width: 120%;
+        display: flex;
+        flex-direction: row;
+    }
+    #carim1{
+        width: 100%;
+        max-width: 230px;
+    }
+    .car1 p{
+        font-size: 1.7vw;
+        font-weight: 600;
+    }
+    .carousel-item{
+        display: flex;
+        width: 130px;
+        justify-content: space-between;
+    }
+    #carim2{
+        width: 6vw;
+        max-width: 90px;
+    }
+    .car1 button{
+        margin-left: 1vw;
+        height: 3.4vw;
+        border-radius: 1vw;
+        border: none;
+        background-color: black;
+        color: white;
+        font-weight: 500;
+        font-size: 1vw;
+        width: 55%;
+    }
+    .car1 button:hover{
+        margin-left: 1vw;
+        height: 3.4vw;
+        border-radius:10px ;
+        border: none;
+        background-color:#0d6efd;
+        transition: 0.3s;
+        color: white;
+        font-weight: 500;
+        font-size: 1vw;
+        width: 55%;
+    }
+
+    .body3{
+        height: 160vw;
+        background-color: #F9F9F9;
+    }
+    
+    .body3 p:first-child{
+        margin-bottom: 4vw;
+        font-size: 4vw;
+        text-align: center;
+        padding-top: 18vw;
+    }
+    .tab1{
+        margin-bottom: 2vw;
+        margin-left: 10vw;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        width: 78%;
+    }
+    .tab2{
+        margin-bottom: 2vw;
+        margin-left: 10%;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        width: 52%;
+    }
+    #pills-tab{
+        align-content: center;
+        padding-bottom: 6vw;
+        margin-left: 24%;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    ul #pills-home-tab{
+        height: 4vw;
+        margin-right: -2.2vw;
+        font-size: 1.4vw;
+        color: black;
+        border: 0.2vw solid black;
+        border-radius: 1vw;
+        width: 6vw;
+    }
+    ul button:hover{
+        background-color: #0d6efd;
+    }
+    ul button img{
+    
+        height: 2vw;
+        width: 9vw;
+    }
+    ul button #tab3{
+        width: 6vw;
+    }
+    #pills-profile-tab{
+        padding: 1vw;
+        height: 4vw;
+        width: 110%;
+        border-radius: 1vw;
+        border: 0.2vw solid black;
+    }
+    #pills-contact-tab{
+        padding: 1vw;
+        height: 4vw;
+        width: 110%;
+        border-radius: 1vw;
+        border: 0.2vw solid black;
+    }
+    #pills-cont-tab{
+        padding: 1vw;
+        height: 4vw;
+        width: 110%;
+        border-radius: 1vw;
+        border: 0.2vw solid black;
+    }
+    #hidec{
+        display: none;
+    }
+
+
+
+
+
+    .footer{
+        height: 24vw;
+        background-color: #141416;
+    }
+    .fl1{
+        padding-top: 4vw;
+        width: 88%;
+        margin-left: 6%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .fl1 img{
+        width: 30%;
+    }
+    .fl1 div:first-child p{
+        margin-top: 2vw;
+        color: white;
+        font-size: 2vw;
+        font-weight: 500;
+    } 
+    .fl1 div:first-child{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .fl1 div:last-child{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 46%;
+    }
+    .fl1 div:last-child p{
+        margin-top: 1vw;
+        color: white;
+        font-size: 1vw;
+    }
+    
+    
+    .footer hr{
+        width: 88%;
+        margin-left: 6%;
+        color: white;
+    }
+    
+    
+    .fl2{
+        margin-top: 4vw;
+        margin-left: 6%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 88%;
+    }
+    .fl2 div:first-child{
+        display: flex;
+        flex-direction: row;
+    }
+    .fl2 div:first-child p{
+        color: #535353;
+    }
+    .fl2 div:last-child{
+        justify-content: space-between;
+        width: 15%;
+        display: flex;
+        flex-direction: row;
+    }
+    .fl2 div:last-child a{
+        font-size: 1.2vw;
+        text-decoration: none;
+        color: #707070;
+        font-weight: 600;
+    }
+    .fl2 div:last-child a:hover{
+        transition: 0.3s;
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+    }
+}
